@@ -636,6 +636,7 @@
 			buildSettings = {
 				MACH_O_TYPE = mh_execute;
 				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-w",
@@ -649,6 +650,7 @@
 			buildSettings = {
 				MACH_O_TYPE = mh_execute;
 				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-w",

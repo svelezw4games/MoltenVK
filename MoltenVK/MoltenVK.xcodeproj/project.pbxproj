@@ -2519,6 +2519,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -2527,6 +2528,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				SDKROOT = macosx;
 			};
 			name = Release;
