@@ -2518,6 +2518,7 @@
 		A9CBEDFF1B6299D800E45FDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -2525,6 +2526,7 @@
 		A9CBEE001B6299D800E45FDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
 				SDKROOT = macosx;
 			};
 			name = Release;

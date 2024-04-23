@@ -635,6 +635,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				MACH_O_TYPE = mh_execute;
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-w",
@@ -647,6 +648,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				MACH_O_TYPE = mh_execute;
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-w",
