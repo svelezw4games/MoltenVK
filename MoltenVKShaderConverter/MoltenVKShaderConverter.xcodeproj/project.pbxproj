@@ -620,6 +620,8 @@
 		2FEA0D122490381A00EEF3AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				SDKROOT = appletvos;
 			};
 			name = Debug;
@@ -627,6 +629,8 @@
 		2FEA0D132490381A00EEF3AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				SDKROOT = appletvos;
 			};
 			name = Release;
@@ -662,6 +666,8 @@
 		A93903BD1C57E9D700FE90DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -669,6 +675,8 @@
 		A93903BE1C57E9D700FE90DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -676,6 +684,8 @@
 		A93903C51C57E9ED00FE90DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -683,6 +693,8 @@
 		A93903C61C57E9ED00FE90DC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -812,6 +824,8 @@
 		DCFD7F862A45BDA0007BBBF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				SDKROOT = xros;
 			};
 			name = Debug;
@@ -819,6 +833,8 @@
 		DCFD7F872A45BDA0007BBBF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				SDKROOT = xros;
 			};
 			name = Release;
