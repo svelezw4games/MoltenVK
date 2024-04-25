@@ -21,11 +21,11 @@ jobs:
         upload_artifacts: [ true ]
 
         # Legacy configurations
-        include:
-          - xcode: "12.5.1"
-            platform: "macos"
-            os: "macos-11"
-            upload_artifacts: false
+        #include:
+        #  - xcode: "12.5.1"
+        #    platform: "macos"
+        #    os: "macos-11"
+        #    upload_artifacts: false
       fail-fast: false
 
     name: 'MoltenVK (Xcode ${{ matrix.xcode }} - ${{ matrix.platform }})'

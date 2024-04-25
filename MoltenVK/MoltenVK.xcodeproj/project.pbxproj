@@ -2380,6 +2380,8 @@
 		2FEA0AB824902F9F00EEF3AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				SDKROOT = appletvos;
 			};
 			name = Debug;
@@ -2387,6 +2389,8 @@
 		2FEA0AB924902F9F00EEF3AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				SDKROOT = appletvos;
 			};
 			name = Release;
@@ -2396,6 +2400,8 @@
 			buildSettings = {
 				EXECUTABLE_PREFIX = lib;
 				LD_DYLIB_INSTALL_NAME = "@rpath/lib${PRODUCT_NAME}.dylib";
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-w",
@@ -2409,6 +2415,8 @@
 			buildSettings = {
 				EXECUTABLE_PREFIX = lib;
 				LD_DYLIB_INSTALL_NAME = "@rpath/lib${PRODUCT_NAME}.dylib";
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-w",
@@ -2420,6 +2428,8 @@
 		A9B8EE1E1A98D796009C5A02 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -2427,6 +2437,8 @@
 		A9B8EE1F1A98D796009C5A02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -2434,6 +2446,8 @@
 		A9CBEDFF1B6299D800E45FDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -2441,6 +2455,8 @@
 		A9CBEE001B6299D800E45FDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -2450,6 +2466,8 @@
 			buildSettings = {
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_DYLIB_INSTALL_NAME = "@rpath/${PRODUCT_NAME}.framework/${PRODUCT_NAME}";
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-w",
@@ -2463,6 +2481,8 @@
 			buildSettings = {
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_DYLIB_INSTALL_NAME = "@rpath/${PRODUCT_NAME}.framework/${PRODUCT_NAME}";
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-w",
@@ -2476,6 +2496,8 @@
 			buildSettings = {
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_DYLIB_INSTALL_NAME = "@rpath/${PRODUCT_NAME}.framework/${PRODUCT_NAME}";
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-w",
@@ -2489,6 +2511,8 @@
 			buildSettings = {
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_DYLIB_INSTALL_NAME = "@rpath/${PRODUCT_NAME}.framework/${PRODUCT_NAME}";
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-w",
@@ -2502,6 +2526,8 @@
 			buildSettings = {
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_DYLIB_INSTALL_NAME = "@rpath/${PRODUCT_NAME}.framework/${PRODUCT_NAME}";
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-w",
@@ -2515,6 +2541,8 @@
 			buildSettings = {
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_DYLIB_INSTALL_NAME = "@rpath/${PRODUCT_NAME}.framework/${PRODUCT_NAME}";
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-w",
@@ -2528,6 +2556,8 @@
 			buildSettings = {
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_DYLIB_INSTALL_NAME = "@rpath/${PRODUCT_NAME}.framework/${PRODUCT_NAME}";
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-w",
@@ -2541,6 +2571,8 @@
 			buildSettings = {
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_DYLIB_INSTALL_NAME = "@rpath/${PRODUCT_NAME}.framework/${PRODUCT_NAME}";
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = (
 					"-all_load",
 					"-w",
@@ -2611,6 +2643,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = "${CURRENT_PROJECT_VERSION}";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				PRELINK_LIBS = "${CONFIGURATION_BUILD_DIR}/libMoltenVKShaderConverter.a";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moltenvk.framework;
 				PRODUCT_NAME = MoltenVK;
@@ -2684,6 +2718,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MARKETING_VERSION = "${CURRENT_PROJECT_VERSION}";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				PRELINK_LIBS = "${CONFIGURATION_BUILD_DIR}/libMoltenVKShaderConverter.a";
 				PRODUCT_BUNDLE_IDENTIFIER = com.moltenvk.framework;
 				PRODUCT_NAME = MoltenVK;
@@ -2697,6 +2733,8 @@
 		DCFD7F602A45BC6E007BBBF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				SDKROOT = xros;
 			};
 			name = Debug;
@@ -2704,6 +2742,8 @@
 		DCFD7F612A45BC6E007BBBF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_CFLAGS[arch=*]" = "-fno-objc-msgsend-selector-stubs";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
 				SDKROOT = xros;
 			};
 			name = Release;
